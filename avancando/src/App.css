@@ -1,0 +1,20 @@
+/* Responsividade da imagem */
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /*evita distorção (mantem a proporção)*/
+}
+
+/*Site para otimização de imagens, excelente para web
+      https://tinypng.com/
+
+      - reduz o tamanho do arquivo (não a proporção)
+      - mantém boa qualidade visual
+      - suporta: PNG, JPG e WebP
+
+      Boas práticas 
+      - Usar imagens menores (ex: 800px em vez de 4000px)
+      - Comprimir imagens antes ( Tynypng, etc )
+      - Usar formatos modernos (.webp)
+*/
